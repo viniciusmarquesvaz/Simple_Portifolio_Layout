@@ -1,0 +1,232 @@
+html {
+  font-family: 'Fira Sans', sans-serif;
+}
+/* perfil */
+
+.profile-photo {
+  position: relative;
+  align-items: center;
+}
+
+.profile-photo img {
+  height: 15rem;
+  border: solid 0.1153rem;
+  border-color: #ccf235;
+  border-radius: 5%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+.perfil {
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+
+.titulo {
+  font-size: 72px;
+  font-style: bolder;
+}
+.titulo2 {
+  font-size: 24px;
+  color: #525252;
+}
+.detalhe img {
+  border: none;
+  position: absolute;
+  margin-top: -350px;
+  z-index: -1;
+  height: 150px;
+  margin-left: -50px;
+}
+.box1 a {
+  cursor: auto;
+}
+.fundo-section {
+  background-color: #ebebeb;
+}
+.fundo-section {
+  color: black;
+}
+/* emoji do et */
+.emoji {
+  color: #ccf235;
+  font-size: 32px;
+  animation-name: et;
+  transform: translateX(18.125rem);
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+}
+/* animação do et */
+@keyframes et {
+  from {
+    transform: translateX(18.125rem);
+  }
+  to {
+    transform: translateX(0rem);
+  }
+}
+/* fechamento da nimação do etzin */
+
+.profile-photo2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.profile-photo2 img {
+  height: 6rem;
+  border-radius: 50%;
+  border-radius: 5%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  margin-left: -560px;
+  margin-top: 1.05rem;
+  z-index: 10;
+}
+.titulo3 {
+  color: #e0e0e0;
+  font-size: 144px;
+  letter-spacing: 0;
+  line-height: 9rem;
+  max-width: 329px;
+  margin-top: 60px;
+}
+.intranet {
+  width: 660px;
+  height: 160px;
+  background-color: #e0e0e0;
+  position: absolute;
+  margin-left: 36.5rem;
+  top: 78rem;
+}
+.intranet h2 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+}
+.intranet p {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #525252;
+}
+.titulos {
+  display: flex;
+}
+.intranet .titulos .segundoTitulo {
+  margin-left: 335px;
+}
+.intranet .titulos .segundoTitulo2 {
+  margin-left: 385px;
+}
+.detalhezin {
+  position: absolute;
+  top: 20px;
+  width: 7px;
+  left: -5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.gif_intranet {
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  left: 26rem;
+  top: 3rem;
+  cursor: pointer;
+  transition: 1s;
+}
+.gif_intranet:hover {
+  opacity: 60%;
+}
+.fundo-section2 {
+  background-color: #141414;
+  width: 100vw;
+  height: 958px;
+  margin-top: 60px;
+}
+.titulo4 {
+  margin-top: -53rem;
+  margin-left: 40px;
+}
+.textinho_formacao {
+  position: absolute;
+  margin-left: 40rem;
+  margin-top: -17rem;
+  font-size: 24px;
+}
+/* boxes card */
+.eng-soft {
+  width: 204px;
+  height: 190px;
+  border: 1px solid #0000;
+  background: #090909;
+  border-radius: 5px;
+  margin-top: 28px;
+}
+.eng-soft h2 {
+  color: #a3a3a3;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.eng-soft h4 {
+  color: #a3a3a3;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.eng-soft h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+/* cardizin de cursos intensivos */
+.cursos-intensivos {
+  width: 1900px;
+  max-height: 112px;
+
+  margin-top: 58px;
+}
+.cursos-intensivos h2 {
+  color: #969696;
+  font-weight: bold;
+  font-size: 18px;
+}
+.cursos-intensivos ul li {
+  color: white;
+  font-size: 18px;
+}
+footer p {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  margin-left: 140px;
+  margin-top: 154px;
+}
+
+footer ul li {
+  font-size: 36px;
+  margin-left: 840px;
+  color: white;
+}
+.copyright {
+  margin-top: 28rem;
+  font-size: 18px;
+  color: #8f8f8f;
+}
+
+/* detalhes extras */
+.navbar-end a {
+  color: #70da1c;
+  transition: 2s;
+}
+html {
+  scroll-behavior: smooth;
+  transition: 10s;
+}
